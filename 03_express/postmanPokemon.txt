@@ -1,0 +1,19 @@
+GET
+https://pokeapi.co/api/v2/pokemon/?limit=800
+--> response: first 800 pokemon and their attributes
+
+GET
+https://pokeapi.co/api/v2/pokemon/211/
+-->response: pokemon #211, ÒqwilfishÓ and its attributes
+
+GET
+https://pokeapi.co/api/v2/berry/4
+-->response: berry #4, ÒrawstÓ and its attributes
+
+GET
+https://pokeapi.co/api/v2/evolution-chain/2
+-->response: evolution chain #2 and its attributes (info on how Charmander evolves)
+
+GET
+https://pokeapi.co/api/v2/location/1
+-->response: location #1, ÒCanalave CityÓ and its attributes

@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input {
+  background-color: rgb(232, 232, 232);
+  border-radius: 5px;
+  border: 0;
+}
+
+.box {
+  height: 100px;
+  width: 100px;
+  margin-right: 20px;
+}

@@ -1,0 +1,34 @@
+.addButton {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 0.8em;
+  padding: 5px;
+  border: 1px solid black;
+  box-shadow: 3px 2px 0 black;
+}
+
+.error {
+  color: red;
+}
+
+.divBorder {
+  border: 1px solid black;
+}
+
+.header-bg-color {
+  background-color: darkgrey;
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 0.8em;
+  padding: 5px;
+  border: 1px solid black;
+  box-shadow: 3px 2px 0 black;
+}

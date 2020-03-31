@@ -1,0 +1,21 @@
+1. use ‘my_first_db’
+2. db.createCollection(“students”)
+3. db.my_first_db.insert({name:”Mia Buechler”, home_state:”CA”, lucky_number:2, birthday:{month:03, day:16, year:2018}}) *5, but changing values
+4. db.my_first_db.find({})
+5. db.my_first_db.find({$or [{home_state:”CA”}, {home_state:”WA”}]})
+6. db.my_first_db.find({lucky_number:{$gt:3}})
+7. db.my_first_db.find({lucky_number:{$lte:10}})
+8. db.my_first_db.updateMany({}, {$set:{interests:[“coding”, “MongoDB”, “brunch”]}})
+9. db.my_first_db.update({name:”Mia Buechler”}, {$push:{interests:”sleeve”}}) *5
+10. db.my_first_db.update({name:”Dwight Schrute”}, {$push:{interests:”taxes”}})
+11. db.my_first_db.update({name:”Dwight Schrute”}, {$pop:{interests:1}})
+12. db.my_first_db.remove({home_state:”CA”})
+13. db.my_first_db.remove({name: “Alex Kuhn”})
+14. db.my_first_db.remove({lucky_number:{$gt:5}}, true)
+15. db.my_first_db.updateMany({}, {$set:{number_of_belts:0}})
+16. db.my_first_db.updateMany({}, {$inc:{number_of_belts:1}})
+17. db.my_first_db.updateMany({}, {$rename:{‘number_of_belts’: ‘belts_earned’}})
+18. db.my_first_db.updateMany({}, {$unset:{lucky_number:””}})
+19. db.my_first_db.updateMany({}, {$set:{updated_on: new Date()}})
+
+

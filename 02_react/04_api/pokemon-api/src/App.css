@@ -1,0 +1,15 @@
+  .container-flex {
+    display: flex;
+    justify-content: center;
+  }
+
+  .m-top {
+    margin-top: 20px;
+  }
+
+  .fetch-btn {
+    background-color: dimgray;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+  }
